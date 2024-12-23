@@ -17,40 +17,22 @@
   <meta name="keywords" content="">
   
     <meta property="og:type" content="article">
-<meta property="og:title" content="跨域问题">
-<meta property="og:url" content="https://lu-six-star.github.io/2024/12/21/cross_domain/index.html">
+<meta property="og:title" content="Electron开发教程">
+<meta property="og:url" content="https://lu-six-star.github.io/2024/12/21/electron_learn/index.html">
 <meta property="og:site_name" content="星橙点点">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221093805910.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221093923427.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221094227024.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221094256501.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221094356500.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221095401744.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221100122676.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221100531628.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221101331939.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221101759160.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221102215925.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221104413416.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221104239131.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221104544508.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221104911655.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221110309255.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221110637219.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221110714815.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221111436042.png">
-<meta property="og:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221111621016.png">
-<meta property="article:published_time" content="2024-12-21T02:40:58.000Z">
-<meta property="article:modified_time" content="2024-12-21T03:16:44.110Z">
+<meta property="og:image" content="https://lu-six-star.github.io/imgs/Electron%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/image-20241221155100183.png">
+<meta property="og:image" content="https://lu-six-star.github.io/imgs/Electron%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/image-20241221155741381.png">
+<meta property="article:published_time" content="2024-12-21T07:40:58.000Z">
+<meta property="article:modified_time" content="2024-12-23T02:08:03.670Z">
 <meta property="article:author" content="Chris">
-<meta property="article:tag" content="Cross">
+<meta property="article:tag" content="Electron">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://lu-six-star.github.io/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221093805910.png">
+<meta name="twitter:image" content="https://lu-six-star.github.io/imgs/Electron%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/image-20241221155100183.png">
   
   
   
-  <title>跨域问题 - 星橙点点</title>
+  <title>Electron开发教程 - 星橙点点</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -204,7 +186,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="跨域问题"></span>
+            <span id="subtitle" data-typed-text="Electron开发教程"></span>
           
         </div>
 
@@ -215,8 +197,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-12-21 10:40" pubdate>
-          2024年12月21日 上午
+        <time datetime="2024-12-21 15:40" pubdate>
+          2024年12月21日 下午
         </time>
       </span>
     
@@ -227,7 +209,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          343 字
+          23 字
         
       </span>
     
@@ -238,7 +220,7 @@
         
         
         
-          3 分钟
+          1 分钟
         
       </span>
     
@@ -275,51 +257,19 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">跨域问题</h1>
+            <h1 id="seo-header">Electron开发教程</h1>
             
             
               <div class="markdown-body">
                 
-                <!-- cross_domain-->
+                <!-- electron_learn-->
 
 <span id="more"></span>
 
 
 
-<h3 id="什么是源"><a href="#什么是源" class="headerlink" title="什么是源"></a>什么是源</h3><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221093805910.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="同源与非同源"><a href="#同源与非同源" class="headerlink" title="同源与非同源"></a>同源与非同源</h3><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221093923427.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="同源请求与非同源请求"><a href="#同源请求与非同源请求" class="headerlink" title="同源请求与非同源请求"></a>同源请求与非同源请求</h3><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221094227024.png" srcset="/img/loading.gif" lazyload></p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221094256501.png" srcset="/img/loading.gif" lazyload></p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221094356500.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="浏览器会对跨域做出哪些限制？"><a href="#浏览器会对跨域做出哪些限制？" class="headerlink" title="浏览器会对跨域做出哪些限制？"></a>浏览器会对跨域做出哪些限制？</h3><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221095401744.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h3><ul>
-<li>跨域限制仅存在浏览器端，服务端不存在跨域限制</li>
-<li>即使跨域了，Ajax请求也可以正常发出，但响应数据不会交给开发者</li>
-</ul>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221100122676.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="CORS解决Ajax跨域问题"><a href="#CORS解决Ajax跨域问题" class="headerlink" title="CORS解决Ajax跨域问题"></a>CORS解决Ajax跨域问题</h3><h5 id="CORS概述"><a href="#CORS概述" class="headerlink" title="CORS概述"></a>CORS概述</h5><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221100531628.png" srcset="/img/loading.gif" lazyload></p>
-<h5 id="CORS解决简单请求的跨域问题"><a href="#CORS解决简单请求的跨域问题" class="headerlink" title="CORS解决简单请求的跨域问题"></a>CORS解决简单请求的跨域问题</h5><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221101331939.png" srcset="/img/loading.gif" lazyload></p>
-<h5 id="简单请求与复杂请求"><a href="#简单请求与复杂请求" class="headerlink" title="简单请求与复杂请求"></a>简单请求与复杂请求</h5><p>CORS把请求分为简单请求和复杂请求</p>
-<h6 id="CORS解决简单请求的跨域问题-1"><a href="#CORS解决简单请求的跨域问题-1" class="headerlink" title="CORS解决简单请求的跨域问题"></a>CORS解决简单请求的跨域问题</h6><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221101759160.png" srcset="/img/loading.gif" lazyload></p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221102215925.png" srcset="/img/loading.gif" lazyload></p>
-<h6 id="预检请求"><a href="#预检请求" class="headerlink" title="预检请求"></a>预检请求</h6><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221104413416.png" srcset="/img/loading.gif" lazyload></p>
-<h6 id="CORS解决预检请求的跨域问题"><a href="#CORS解决预检请求的跨域问题" class="headerlink" title="CORS解决预检请求的跨域问题"></a>CORS解决预检请求的跨域问题</h6><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221104239131.png" srcset="/img/loading.gif" lazyload></p>
-<h6 id="CORS解决复杂请求的跨域问题"><a href="#CORS解决复杂请求的跨域问题" class="headerlink" title="CORS解决复杂请求的跨域问题"></a>CORS解决复杂请求的跨域问题</h6><p>服务器先通过浏览器的预检请求，服务器需要返回如下请求头</p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221104544508.png" srcset="/img/loading.gif" lazyload></p>
-<p>然后处理实际的跨域请求，与处理简单请求跨域的方式相同</p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221104911655.png" srcset="/img/loading.gif" lazyload></p>
-<p>CORS库快速完成配置</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">npm i cors<br></code></pre></td></tr></table></figure>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs javascript">app.<span class="hljs-title function_">use</span>(<span class="hljs-title function_">cors</span>())<br></code></pre></td></tr></table></figure>
-
-<p>完整配置</p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221110309255.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="JSONP解决跨域-了解"><a href="#JSONP解决跨域-了解" class="headerlink" title="JSONP解决跨域(了解)"></a>JSONP解决跨域(了解)</h3><p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221110637219.png" srcset="/img/loading.gif" lazyload></p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221110714815.png" srcset="/img/loading.gif" lazyload></p>
-<p>使用标签的写法请求数据，绕过跨域限制，服务器返回js语法内容，然后执行</p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221111436042.png" srcset="/img/loading.gif" lazyload></p>
-<p><img src="/imgs/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/image-20241221111621016.png" srcset="/img/loading.gif" lazyload></p>
+<h3 id="什么是Electron"><a href="#什么是Electron" class="headerlink" title="什么是Electron"></a>什么是Electron</h3><p><img src="/imgs/Electron%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/image-20241221155100183.png" srcset="/img/loading.gif" lazyload></p>
+<h3 id="Electron流程模型"><a href="#Electron流程模型" class="headerlink" title="Electron流程模型"></a>Electron流程模型</h3><p><img src="/imgs/Electron%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/image-20241221155741381.png" srcset="/img/loading.gif" lazyload></p>
 
                 
               </div>
@@ -353,7 +303,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Cross/" class="print-no-link">#Cross</a>
+        <a href="/tags/Electron/" class="print-no-link">#Electron</a>
       
     </div>
   
@@ -367,18 +317,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/12/21/electron_learn/" title="Electron开发教程">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Electron开发教程</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/11/28/embedded_u8g2/" title="u8g2学习">
-                        <span class="hidden-mobile">u8g2学习</span>
+                      <a href="/2024/12/21/cross_domain/" title="跨域问题">
+                        <span class="hidden-mobile">跨域问题</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Electron开发教程</title>
+    <link href="/2024/12/21/electron_learn/"/>
+    <url>/2024/12/21/electron_learn/</url>
+    
+    <content type="html"><![CDATA[<!-- electron_learn--><span id="more"></span><h3 id="什么是Electron"><a href="#什么是Electron" class="headerlink" title="什么是Electron"></a>什么是Electron</h3><p><img src="/imgs/Electron%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/image-20241221155100183.png"></p><h3 id="Electron流程模型"><a href="#Electron流程模型" class="headerlink" title="Electron流程模型"></a>Electron流程模型</h3><p><img src="/imgs/Electron%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B/image-20241221155741381.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Web</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Electron</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>跨域问题</title>
     <link href="/2024/12/21/cross_domain/"/>
     <url>/2024/12/21/cross_domain/</url>
